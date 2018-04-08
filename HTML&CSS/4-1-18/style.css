@@ -1,0 +1,94 @@
+body{
+    margin: 0
+}
+#header{
+    overflow: auto;
+    background-color:#063a3a;
+    color: aliceblue;
+}
+#heading{
+    font-size: 25px;
+    text-decoration: underline;
+    text-indent: 20px;
+}
+#heading:hover {
+text-shadow: cyan 2px 3px 5px
+}
+img{
+    vertical-align: initial
+}
+
+/* //////////////////////////////////////// */
+
+/* Standard sysntex */
+@keyframes batch5 {
+    from {
+        background: green;
+}
+to {
+    background: red;
+    }
+    /* from {background-color: rgb(0, 66, 66);}
+    to {background-color: rgb(0, 170, 170);} */
+    /* from {background-color: rgb(238, 17, 91);}
+    to {background-color: greenyellow;} */
+}
+
+/* @font-face {
+    font-family: 'myfont';
+    src: url('fonts/chunkfive.ttf')
+} */
+
+ #container{
+    padding: 50px 150px 10px 150px;
+    background-color: #044848;
+    color: white;
+    animation: batch5 5s infinite
+}
+
+
+ p.one:first-letter {
+    font-size: 35px;
+    color: aliceblue;
+} 
+ p.two::first-line {
+    font-size: 25px;
+}
+
+p.one {
+    text-indent: 50px;
+    padding: 50px;
+    color: aqua;
+    background-color: rgba(0,0,0,0.5);
+}
+ p.two {
+    text-indent: 50px;
+    padding: 50px;
+    color: aqua;
+    background-color :black;
+    opacity: 0.5;
+} 
+
+
+/* //////////////////////////////////////////// */
+.green {
+  line-height: 3em;
+  border: outset 10px green;
+}
+
+.blue {
+  line-height: normal;
+  border: inset 10px blue;
+}
+
+.red {
+    line-height: 1.1em;
+    border: inset 10px red;
+}
+
+.box {
+  background-color: #047070;
+  width: 31%;
+  vertical-align: top;
+  display: inline-block;
+} 
